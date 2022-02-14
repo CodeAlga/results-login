@@ -1,0 +1,18 @@
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.optionESP ::after {
+  content: "";
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  color: red;
+  background: url("../../Assets/spain-flag-round-icon-32.png") 0 0 no-repeat;
+  background-size: contain;
+}

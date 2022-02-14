@@ -1,0 +1,6 @@
+{
+  "eslint.workingDirectories": ["./resultados-privado/src"],
+  "javascript.preferences.quoteStyle": "double",
+  "typescript.preferences.quoteStyle": "double"
+  // "git.ignoreLimitWarning": true
+}

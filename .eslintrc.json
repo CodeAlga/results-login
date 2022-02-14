@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "react-app",
+    "airbnb",
+    "prettier",
+    "prettier/react",
+    "plugin:cypress/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+
+  "plugins": ["react", "prettier", "react-hooks", "jsx-a11y", "cypress"],
+
+  "parser": "babel-eslint",
+
+  "env": {
+    "jest": true,
+    "serviceworker": true
+  },
+
+  "globals": {
+    "window": true,
+    "document": true
+    // "btoa": true,
+    // "sessionStorage": true
+  },
+
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-props-no-spreading": [0, { "custom": "ignore" }],
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "func-names": "off",
+    "class-methods-use-this": "off",
+    "no-param-reassign": [
+      "error",
+      { "ignorePropertyModificationsFor": ["state"] }
+    ]
+    // "no-shadow": ["error", { "allow": ["rows", "codigoAnalitica"] }],
+    // "no-restricted-globals": [0, "isNaN"]
+  }
+}
